@@ -12,7 +12,7 @@
     "Roman Shtylman <shtylman@gmail.com>",
     "Gert Hengeveld <gert@hichroma.com>",
     "Tom Coleman <tom@hichroma.com>",
-    "Matthew Zhao <matthewzhaocc@gmail.com>",
+    "Matthew Zhao <matthewzhaocc@gmail.com>"
   ],
   "main": "./fusetunnel.js",
   "types": "./fusetunnel.d.ts",
