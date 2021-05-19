@@ -4,7 +4,7 @@
 const openurl = require('openurl');
 const yargs = require('yargs');
 
-const localtunnel = require('../localtunnel');
+const localtunnel = require('../fusetunnel');
 const { version } = require('../package');
 
 const { argv } = yargs
