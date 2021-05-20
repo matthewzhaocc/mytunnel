@@ -36,5 +36,6 @@
   },
   "engines": {
     "node": ">=14"
-  }
+  },
+  "private": false
 }
