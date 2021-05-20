@@ -1,22 +1,23 @@
 {
-  "name": "mytunnel",
+  "name": "@fusebit/tunnel",
   "description": "Expose localhost to the world",
   "version": "3.2.1",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/StyleT/mytunnel.git"
+    "url": "git://github.com/fusebit/tunnel.git"
   },
   "author": "Vladlen Fedosov <vlad.fedosov@gmail.com>",
   "contributors": [
     "Roman Shtylman <shtylman@gmail.com>",
     "Gert Hengeveld <gert@hichroma.com>",
-    "Tom Coleman <tom@hichroma.com>"
+    "Tom Coleman <tom@hichroma.com>",
+    "Matthew Zhao <matthewzhaocc@gmail.com>"
   ],
-  "main": "./localtunnel.js",
-  "types": "./localtunnel.d.ts",
+  "main": "./fusetunnel.js",
+  "types": "./fusetunnel.d.ts",
   "bin": {
-    "lt": "bin/lt.js"
+    "ft": "bin/ft.js"
   },
   "scripts": {
     "test": "mocha --timeout 15000 --exit -- *.spec.js"
@@ -34,6 +35,7 @@
     "supertest": "^6.1.3"
   },
   "engines": {
-    "node": ">=12"
-  }
+    "node": ">=14"
+  },
+  "private": false
 }
