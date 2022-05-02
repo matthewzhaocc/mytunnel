@@ -1,19 +1,29 @@
+# 3.2.6 (2022-05-01)
+
+- Fusetunnel now supports the use of secrets to protect private fusetunnel deployments.
+
 # 3.2.5 (2021-05-25)
-- Fusetunnel now handles close properly. 
+
+- Fusetunnel now handles close properly.
 
 # 3.2.4 (2021-05-24)
+
 - Add the clientId to the Tunnel type definition.
 
 # 3.2.3 (2021-05-20)
+
 - Switch prettier to dev dependency.
 
 # 3.2.2 (2021-05-20)
+
 - Switch to a manual calculation for sha256 fingerprint to ensure backward compatibility.
 
 # 3.2.1 (2021-02-22)
+
 - Removed pings to server as they violate correct use of the tcp socket passed to httpAgent
 
 # 3.2.0 (2021-02-20)
+
 - Added TS typings
 - Rebranded to "mytunnel"
 - Added pings to server to help with dead connections detection.

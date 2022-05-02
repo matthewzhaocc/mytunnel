@@ -52,6 +52,9 @@ const { argv } = yargs
   .option('insecure', {
     describe: 'enable insecure TLS connections for remote connection',
   })
+  .option('secret', {
+    describe: 'the secret to use to authenticate with the fusetunnel server',
+  })
   .require('port')
   .boolean('local-https')
   .boolean('allow-invalid-cert')
@@ -76,6 +79,7 @@ if (typeof argv.port !== 'number') {
     local_key: argv.localKey,
     local_ca: argv.localCa,
     allow_invalid_cert: argv.allowInvalidCert,
+    secret: argv.secret,
   }).catch((err) => {
     throw err;
   });
